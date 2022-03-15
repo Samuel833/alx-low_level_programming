@@ -5,6 +5,7 @@
  * write a program that prints Holberton, followed by a new line.
  * Return: Always (Success)
  */
+
 int main(void)
 {
 	char *ch = "_putchar";
@@ -15,6 +16,7 @@ int main(void)
 		ch++;
 	}
 	_putchar('\n');
+
 	return(0)
 }
 
