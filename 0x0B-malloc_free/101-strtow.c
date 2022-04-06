@@ -10,7 +10,7 @@
 int count_word(char *s)
 {
 	int flag, c, w;
-
+	
 	flag = 0;
 	w = 0;
 
@@ -21,7 +21,7 @@ int count_word(char *s)
 		else if (flag == 0)
 		{
 			flag = 1;
-			w+=;
+			w++;
 		}
 	}
 
